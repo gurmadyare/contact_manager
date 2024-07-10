@@ -1,0 +1,162 @@
+body{
+  margin: 0 auto;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  padding: 10px;
+  margin-bottom: 45px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+form label{
+  padding-right: 20px;
+}
+
+form input{
+  padding: 3px 10px;
+}
+
+.btn{
+  width: 250px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-weight: 600;
+  background-color: darkorchid;
+  margin-bottom: 30px;
+}
+
+.content-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.content-list-header{
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-btn{
+  width: 140px;
+  height: 42px;
+  background-color: blueviolet;
+  border-radius: 20px;
+  border: none;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+}
+
+.add-btn span{
+  padding: 0px 10px;
+}
+
+.search-row{
+  width: 400px;
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+}
+
+.search-input{
+  width: 80%;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 8px;
+  padding: 8px 20px;
+  transition: all 0.3s ease;
+}
+
+.search-input:focus{
+  border: 1px solid goldenrod;
+  outline: none;
+}
+
+.search-btn{
+  background-color: darkorchid;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+}
+
+
+.contact-card{
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h3{
+  margin: 0;
+  padding: 2px;
+  font-weight: 400;
+  text-align: start;
+  font-size: 16px;
+}
+
+.action-btn{
+  width: 45px;
+  height: 30px;
+  color: white;
+  background-color: darkorchid;
+  border-radius: 10px;
+  border: none;
+  margin: 5px;
+}
+
+.contact-details-card{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 100;
+  left: 38%;
+  right: 38%;
+  padding: 10px 30px;
+  border-radius: 0.7rem;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 500px){
+  .contact-details-card{
+    position: absolute;
+    top: 100;
+    left: 15%;
+    right: 15%;
+  }
+}
+
+
+.contact-details-card h3{
+  margin: 5px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.contact-details-card p span{
+  padding-right: 5px;
+}
+
+.contact-details-card p{
+  margin: 0;
+}
