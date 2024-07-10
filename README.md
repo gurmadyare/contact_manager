@@ -1,5 +1,3 @@
-# React + Vite
-
 # Contact Management Application
 
 This is a React-based contact management application that allows users to manage their contacts efficiently. The application provides functionalities to add, update, delete, and search contacts. It leverages local storage to persist data, ensuring that the contact list remains intact even after refreshing the page.
